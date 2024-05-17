@@ -1,209 +1,101 @@
 
+# Analítica Latam
 
-<h2>Planteamiento del problema</h2>
+En Analítica Latam nos especializamos en el analísis detallado, lo cuál nos permite evaluar la factibilidad financiera de proyectos, crear objetivos para un crecimiento y analizar a nuestra competencia. 
+Comprometidos con la preservación del medio ambiente y el desarrollo sostenible.
 
+Nos enfocamos en la impletementación de tecnologías avanzadas y modelos predictivos para la toma de decisiones informadas y atratégicas. Con un trabajo en equipo transparente y con un comunicación efectiva. Llevandolo a cabo con herramientas de visualización de datos para presentar información y análisis complejos de manera clara.
 
-
-
-EcoTransit es una empresa especializada en transporte público que ofrece servicios de corta, mediana y larga distancia en automóviles, operando en varios países de América Latina con el compromiso de brindar un servicio seguro, confiable y sostenible a sus clientes.
-
-La compañía ha anunciado sus planes de ingresar al mercado de la ciudad de Nueva York para finales del año 2024. En vista de las regulaciones de la ciudad, que establecen que todos los taxis públicos deben ser 100% eléctricos a partir de julio de 2025, junto con la necesidad de que los taxis comerciales y los "pick-ups" tengan la etiqueta "cero emisiones" en una década, y la exigencia de que para 2030, los servicios de Uber y Lyft también sean eléctricos en Nueva York, EcoTransit Inc se encuentra motivada por adaptarse a estas tendencias del mercado.
-
-Con el objetivo de responder a estas regulaciones y demandas del mercado, EcoTransit Inc planea iniciar con una flota inicial de 30 vehículos eléctricos en Nueva York. Para fundamentar este movimiento estratégico, la empresa tiene la intención de realizar un análisis de mercado, con el fin de identificar los factores que impactan significativamente en la productividad
-
-<h2>Análisis de mercado.</h2>
+El equipo esta conformao por profesionales capacitados y especializados en áreas claves:
+- 2 Data Analysts: Expertos en el análisis de datos, capaces de extraer insights significativos a partir de conjuntos de datos complejos.
+- 2 Data Engineers: Especialistas en la gestión y procesamiento de grandes volúmenes de datos.
+- 1 Machine Learning Specialist: Profesional dedicado al desarrollo e implementación de modelos de machine learning avanzados.
 
 
-Este análisis proporcionará un marco de referencia para tomar decisiones fundamentadas, con el objetivo de garantizar la rentabilidad y mejorar la eficiencia y calidad del servicio ofrecido por la empresa.  Esto incluye la distribución geográfica de los vehículos, priorizando zonas, Boroughs y distritos estratégicos para maximizar la eficiencia operativa. Se considerarán vehículos eléctricos que ofrezcan una óptima rentabilidad, evaluando tanto los costos de mantenimiento como los costos de inactividad asociados a la recarga de baterías. Se analizará la capacidad de pasajeros más conveniente, así como la selección de marca y modelo de los vehículos, teniendo en cuenta sus características técnicas y su adaptación a las necesidades del mercado objetivo. 
+## Proyecto EcoTransit
 
-<h2>Objetivo General.</h2>
+EcoTransit es una empresa especializada en transporte público, ofresiendo servicios de corta a larga distancia en automóviles. Comprometidos a brindar un servicio seguro, de confianza y sostenible.
 
+Se tiene en mente el ingresar al mercado de la ciudad de Nueva York para finales del 2024. Considerando regularizacines, que declaran que todos los taxis públicos deben ser 100% eléctricos para el 2025, sumando la necesidad de portar la etiqueta "cero emisiones", tanto para comerciales como para pick-up. Demostrando asi la capacdad de adaptación de EcoTransit.
 
-Llevar a cabo un análisis de viabilidad para EcoTransit con el fin de obtener perspectivas y establecer una sólida presencia en el mercado de transporte público de la ciudad de Nueva York, garantizando así su rentabilidad y sostenibilidad a largo plazo.
+## Objetivo General
 
-<p>**Objetivos Específicos.**
+Conducir un exhaustivo análisis de viabilidad para EcoTransit, con el propósito de adquirir perspectivas fundamentadas y establecer una presencia sólida en el mercado del transporte público de la ciudad de Nueva York. Este enfoque garantizará la rentabilidad y sostenibilidad a largo plazo de la empresa, mediante la identificación de oportunidades estratégicas y la implementación de medidas efectivas para satisfacer las demandas del mercado y superar los desafíos competitivos.
 
+### Objetivos 
+1. Identificar las necesidades del mercado: Hora de mayor uso, promedio de pasajeros por viaje, distacia promedio ve los viajes, duración de los viajes, ingresos según jornada laboral.
+2. Estudiar la la disponibilidad y la ubicación de cargadores y supercargadores gratuitos o de pago por la ciudad.
+3.  Analizar caracteristicas de los vehiculos actuales en el mercado para conseguir un ranking de de los mejores vahiculos para el mercado, considerando autonomía y tiempo de recarga.
+4.  Realizar un modelo de regresión lineal para proyectar la utilidad esperada en años proximos y determinar la tasa de retorno de inversión, lo que lograra obtener el tiempo que tomará recuperar la inversión. (información crucial para inversionistas)
 
+## KPIs
 
-1. Identificar las necesidades del mercado, tales como: horas de mayor concurrencia, cantidad promedio de pasajeros por viaje, distancia promedio a recorrer durante una jornada laboral, duración promedio de los viajes y los ingresos promedio por jornada laboral.
-2. Evaluar la disponibilidad de cargadores y supercargadores gratuitos o de pago en toda la ciudad.
-3. Analizar las características de todos los vehículos actualmente disponibles en el mercado para establecer un ranking de los autos que mejor se ajusten a las necesidades del mercado y de la empresa, considerando aspectos como autonomía y tiempo de recarga.
-4. Realizar un modelo de regresión lineal para proyectar la utilidad esperada en los próximos años y determinar la tasa interna de retorno de la inversión, lo que permitirá evaluar en cuántos años la empresa recuperará la inversión. Esta información es crucial para los inversionistas interesados en el proyecto.
+Los KPI son las herramientas que utiliamos para poder realizar una medición del progreso hacias las metas específicas, y nos ayudan a clarar las áresa a mejorar.
 
-<h2>Definición de KPIs</h2>
-
-
-Los KPIs son herramientas importantes en la gestión empresarial ya que proporcionan una forma objetiva de medir el progreso hacia metas específicas y ayudan a identificar áreas que necesitan mejorar.
-
-**Disminución del Costo Operativo Promedio por Vehículo.**
-
-**Definición:** 
-El costo promedio operativo se refiere al gasto medio necesario para operar un vehículo o una flota de vehículos durante un período de tiempo determinado. Este costo incluye una variedad de elementos, como el mantenimiento,la recarga de baterías, los seguros, los impuestos, la depreciación, y otros costos asociados con la operación y el mantenimiento del vehículo. 
-
-**Meta:**
-
-Disminución del 10% en el primer año del costo operativo promedio con respecto al Costo operativo del año 2023.
-
-**Cálculo y Descripción:**
-
-El objetivo es identificar la opción más rentable en términos de costos de adquisición, carga y mantenimiento entre las diversas alternativas de vehículos eléctricos disponibles en el mercado actual. Este análisis permitirá determinar qué tipo de vehículo minimiza el costo operativo total, lo que a su vez maximizará la utilidad. Para ello, se compararon los costos asociados con diferentes modelos de vehículos eléctricos con el fin de identificar la opción más eficiente.
-
-**Tasa de Retorno de la Inversión (ROI)**
-
-**Definición**: 
-
-La tasa de retorno de la inversión mide la rentabilidad de una inversión en relación con su costo inicial. Es un indicador clave para evaluar la eficiencia de la inversión y determinar si los beneficios obtenidos justifican el costo inicial.
-
-**Meta: **
-
-Alcanzar una tasa de retorno de la inversión del 15% en el segundo año después de la implementación de los vehículos eléctricos.
-
-**Cálculo y Descripción:** 
-
-Para calcular la tasa de retorno de la inversión, se divide el beneficio neto obtenido de la inversión (ganancias generadas menos costos totales) entre el costo inicial de la inversión, expresado como un porcentaje. Esta métrica permitirá evaluar cuánto retorno económico está generando la inversión en vehículos eléctricos en comparación con el costo inicial, ayudando así a determinar su viabilidad a largo plazo.
-
-**Incremento en la Participación de Mercado**
+### **Disminución del costo operativo promedio por Vehículo** 
 
 **Definición:**
-
-La participación de mercado representa la cuota de mercado que una empresa controla en relación con el total disponible en su industria o sector. Para una empresa de taxis, esto se refiere al porcentaje de clientes que elige utilizar sus servicios en comparación con la competencia.
+El costo promedio operativo se toma como todo lo necesario para que un vehpiculo o una flota pueda operar por un periodo de tiempo determinado. Esto engloba cuestiones tales como: mantenimiento - recarga de baterías - seguro - impuestos - depreciación - etc.
 
 **Meta:**
+Disminución de un 10% en el primer año del costo operativo promedio con respecto al año 2023.
 
-Incrementar la participación de mercado en un 20% en los próximos dos años.
+**Calculo y descripción:**
+Identificaremos la opción mas rentable en términos de costo de adquisición, mantenimiento y carga entre las diferentes opciones de vehículo eléctricos disponibles en el mercado actual. Con este análisis sabremos cuál es el vehículo más óptimo en cuanto a costo operativo y utilidad. Para esto, se comparan diferentes costos para los diferentes vehículos eléctricos.
+
+
+
+### **Tasa de retorno de la Inversión(ROI)**
+
+**Definición:**
+Esta tasa mide la rentabilidad de una inversión en relación a su costo inicial. Esto es clave para evaluar la eficiencia de la inversión y determinar si se justifica el costo inicial.
+
+**Meta:**
+Alcanzar un 15% de la tasa de inversión para el segundo año de la implementación de vehículos eléctricos.
 
 **Cálculo y Descripción:**
+Para lograr esto, se divide el beneficio neto obtenido de la inversión (ganancias generadas menos costos totales) entre el costo inicial, en porcentajes. Esto nos permítira ver que retorno económico esta generando al inversión en vehículos electricos en comparación con el costo inicial, determinar asi su rentabilidad a futuro.
 
-Este KPI se calcula dividiendo el número de viajes realizados por la empresa entre el total de viajes realizados en el mercado en un período determinado, expresado como un porcentaje.
+### **Incremento en la Participación en el Mercado**
 
-<h2>Solución propuesta.</h2>
+**Definición:**
+Esto se refiere a la cuota del mercado que una empresa controla en relación al total del mercado disponible. Para una empresa de transporte, es sería el porcentaje de clientes que elige utilizar sus servicios en comparación con la competencia.
 
+**Meta:**
+Incrementar en un 20% la participación en el mercado, en los proximos 2 años.
 
-Para cumplir con los objetivos propuestos y abordar las tareas necesarias, podemos dividir el proceso en 3 Sprints iniciando con el primero Sprint abordamos las siguientes actividades: \
- \
-Sprint #1 \
+**Calculo y Descrición:**
+Esto se calcula dividiendo el número de viajes realizados de la empresa entre el total de viajes realizados en el mercado en un periodo determinado, en porcentaje.
 
+## Solución
 
-
-<table>
-  <tr>
-   <td><strong>Tarea</strong>
-   </td>
-   <td><strong>Sub Tarea</strong>
-   </td>
-   <td><strong>Responsable</strong>
-   </td>
-   <td><strong>Estado</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Investigación y Recolección de los datos
-   </td>
-   <td>
-   </td>
-   <td>Todos
-   </td>
-   <td>Terminado
-   </td>
-  </tr>
-  <tr>
-   <td>Análisis exploratorio de los datos
-   </td>
-   <td>
-   </td>
-   <td>Todos
-   </td>
-   <td>Terminado
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>EDA
-   </td>
-   <td>Ezequiel
-   </td>
-   <td>Terminado
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>EDA
-   </td>
-   <td>Antonio M
-   </td>
-   <td>Terminado
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>EDA
-   </td>
-   <td>Antonio H
-   </td>
-   <td>Terminado
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>EDA
-   </td>
-   <td>Javier
-   </td>
-   <td>Terminado
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>EDA
-   </td>
-   <td>Frank
-   </td>
-   <td>Terminado
-   </td>
-  </tr>
-  <tr>
-   <td>Definición del product owner
-   </td>
-   <td>
-   </td>
-   <td>Antonio H
-   </td>
-   <td>Terminado
-   </td>
-  </tr>
-  <tr>
-   <td>Definición de KPIs
-   </td>
-   <td>
-   </td>
-   <td>Todos
-   </td>
-   <td>Terminado
-   </td>
-  </tr>
-  <tr>
-   <td>Creación de repositorio de github
-   </td>
-   <td>
-   </td>
-   <td>Ezequiel
-   </td>
-   <td>Terminado
-   </td>
-  </tr>
-</table>
+Para conserguir los objetivos propuestos y llegar a una solución, dividiremos este proyecto en 3 sprints. 
+Esto lo dividimos en tareas y creamos un diagrama de [Gantt](https://equintana779s-team.monday.com/boards/6599101702) para un flujo de trabajo optimo. 
 
 
-**Stack tecnológico**
+## Stack Tecnológico
 
-Para realizar este análisis, emplearemos un conjunto de herramientas avanzadas. En primer lugar, utilizaremos Python, aprovechando las bibliotecas BeautifulSoup y urlparse para llevar a cabo el proceso de web scraping en la página de TLC Trip Record Data. Luego, haremos uso de Apache PySpark para la manipulación eficiente de grandes volúmenes de datos y para entrenar nuestros modelos. Airflow será esencial para la automatización de tareas, tanto en el web scraping como en la carga de datos.
+El conjunto de herramientas que utilizaremos para este proyecto sera:
 
-Para la creación de servicios web y la exposición de resultados, implementaremos FastAPI, una biblioteca Python que nos permitirá construir rápidamente APIs RESTful con un rendimiento excepcional. Además, utilizaremos Streamlit, una herramienta de creación de aplicaciones web interactivas, para consumir los datos almacenados en el almacén de datos y visualizarlos en un dashboard intuitivo y dinámico.
+1. **Web Scrapping:**
+    - **Herramientas Utilizadas**: Python, BeautifulSoup, urlparse.
+    - **Próposito:**: Realizar el proceso de extracción de datos de la pagina TLC Trip Record Data.
+
+2. **Manipulación y Procesamiento de Datos:**
+    - **Herramientas Utilizadas:** Apache PySpark.
+    - **Propósito:** Manipular eficientemente grandes volúmenes de datos y entrenar modelos de análisis.
+
+3. **Automatización de Tareas:**
+    - **Herramientas Utilizadas:** Apache Airflow.
+    - **Próposito:** Automatizar tanto el proceso de web scraping como la carga de datos.
+
+4. **Creación de Servicios Web y Exposición de Resultados:**
+    - **Herramientas Utiliadas:** FastAPI.
+    - **Próposito:** Construir APIs RESTful de alto rendimiento para la exposición de los resultados del análisis.
+
+5. **Visualización de Datos:**
+    - **Herramientas Utilizadas:** Streamlit.
+    - **Próposito:** Consumir los datos almacenados en el almacén de datos y visualizarlos en un dashboard interactivo y dinámico.
 
 <h2>Análisis de viabilidad.</h2>
 
