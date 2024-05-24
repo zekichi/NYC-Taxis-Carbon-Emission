@@ -1,0 +1,46 @@
+CREATE TABLE IF NOT EXISTS Dim_Tarifa (
+    tarifa_id INT AUTO_INCREMENT PRIMARY KEY,
+    RatecodeID INT NOT NULL,
+    payment_type INT NOT NULL,
+    UNIQUE (RatecodeID, payment_type)
+);
+
+CREATE TABLE IF NOT EXISTS Dim_Locacion (
+    locacion_id INT AUTO_INCREMENT PRIMARY KEY,
+    PULocationID INT NOT NULL,
+    DOLocationID INT NOT NULL,
+    UNIQUE (PULocationID, DOLocationID)
+);
+
+CREATE TABLE IF NOT EXISTS Dim_Tiempo (
+    tiempo_id INT AUTO_INCREMENT PRIMARY KEY,
+    pickup_datetime DATETIME NOT NULL,
+    dropoff_datetime DATETIME NOT NULL,
+    UNIQUE (pickup_datetime, dropoff_datetime)
+);
+
+CREATE TABLE IF NOT EXISTS Hecho_Viaje (
+    viaje_id INT AUTO_INCREMENT PRIMARY KEY,
+    locacion_inicio_id INT NOT NULL,
+    locacion_fin_id INT NOT NULL,
+    tiempo_inicio_id INT NOT NULL,
+    tiempo_fin_id INT NOT NULL,
+    passenger_count INT,
+    trip_distance FLOAT,
+    tarifa_id INT NOT NULL,
+    fare_amount FLOAT,
+    extra FLOAT,
+    mta_tax FLOAT,
+    tip_amount FLOAT,
+    tolls_amount FLOAT,
+    improvement_surcharge FLOAT,
+    total_amount FLOAT,
+    congestion_surcharge FLOAT,
+    airport_fee FLOAT,
+    FOREIGN KEY (locacion_inicio_id) REFERENCES Dim_Locacion(locacion_id),
+    FOREIGN KEY (locacion_fin_id) REFERENCES Dim_Locacion(locacion_id),
+    FOREIGN KEY (tiempo_inicio_id) REFERENCES Dim_Tiempo(tiempo_id),
+    FOREIGN KEY (tiempo_fin_id) REFERENCES Dim_Tiempo(tiempo_id),
+    FOREIGN KEY (tarifa_id) REFERENCES Dim_Tarifa(tarifa_id)
+);
+
