@@ -34,42 +34,6 @@ Con estos datos, nuestra participación de mercado actual es del 13.65%.
 ## Visualización del KPI
 
 Aquí pueden ver un gráfico de barras que compara nuestra participación de mercado actual con nuestra meta objetivo.
-
-![Gráfico de Participación de Mercado Actual vs. Objetivo](path_to_fig1)
-
-## Estrategias para Alcanzar la Meta
-
-Para alcanzar este objetivo, proponemos las siguientes estrategias:
-
-### Mejora en el Servicio:
-- Capacitar a nuestros conductores para mejorar la calidad del servicio.
-- Aumentar la puntualidad y la seguridad de nuestros viajes.
-
-### Marketing y Promociones:
-- Lanzar campañas publicitarias efectivas.
-- Ofrecer descuentos y promociones para atraer y retener clientes.
-
-### Expansión de la Flota:
-- Incrementar el número de taxis disponibles.
-- Introducir servicios especializados, como taxis ecológicos, para atraer a un mercado más amplio.
-
-## Impacto Esperado
-
-**Impacto del Incremento en la Participación de Mercado:**
-
-- **Aumento en Ingresos:** Con más clientes, nuestras tarifas totales aumentarán.
-- **Mejora en la Competitividad:** Mayor visibilidad en el mercado y mejor posicionamiento de nuestra marca.
-
-## Conclusión
-
-La participación de mercado es un indicador clave para medir el éxito de nuestra empresa. Incrementar nuestra participación en un 20% requiere un esfuerzo conjunto en mejorar nuestro servicio, aumentar nuestras actividades de marketing y expandir nuestra flota. Con estas estrategias, no solo mejoraremos nuestra posición competitiva, sino que también aumentaremos significativamente nuestros ingresos.
-
-## Gráficos y Análisis
-
-### 1. Participación de Mercado Actual vs. Objetivo
-
-**Descripción:** Este gráfico muestra la participación de mercado actual de la empresa y la meta objetivo que queremos alcanzar.
-
 **Objetivo:** Aumentar la participación de mercado al 16.38% desde el 13.65%, lo que representa un incremento del 20%.
 
 ![Gráfico de Participación de Mercado Actual vs. Objetivo](path_to_fig.png)
